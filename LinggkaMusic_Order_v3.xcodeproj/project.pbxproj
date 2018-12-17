@@ -8,12 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		29AE213621C79462007FD225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE213521C79462007FD225 /* AppDelegate.swift */; };
-		29AE213821C79462007FD225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE213721C79462007FD225 /* ViewController.swift */; };
-		29AE213B21C79462007FD225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AE213921C79462007FD225 /* Main.storyboard */; };
-		29AE213D21C79463007FD225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AE213C21C79463007FD225 /* Assets.xcassets */; };
 		29AE214021C79463007FD225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AE213E21C79463007FD225 /* LaunchScreen.storyboard */; };
 		29AE214B21C79463007FD225 /* LinggkaMusic_Order_v3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE214A21C79463007FD225 /* LinggkaMusic_Order_v3Tests.swift */; };
 		29AE215621C79463007FD225 /* LinggkaMusic_Order_v3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE215521C79463007FD225 /* LinggkaMusic_Order_v3UITests.swift */; };
+		29AE217521C7948F007FD225 /* ViewArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216421C7948E007FD225 /* ViewArtists.swift */; };
+		29AE217621C7948F007FD225 /* ViewSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216521C7948E007FD225 /* ViewSongs.swift */; };
+		29AE217721C7948F007FD225 /* ViewAlbums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216621C7948E007FD225 /* ViewAlbums.swift */; };
+		29AE217821C7948F007FD225 /* ViewPlaylists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216721C7948E007FD225 /* ViewPlaylists.swift */; };
+		29AE217921C7948F007FD225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AE216821C7948E007FD225 /* Main.storyboard */; };
+		29AE217A21C7948F007FD225 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216A21C7948E007FD225 /* DataBase.swift */; };
+		29AE217B21C7948F007FD225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AE216B21C7948F007FD225 /* Assets.xcassets */; };
+		29AE217C21C7948F007FD225 /* TableViewCellBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216D21C7948F007FD225 /* TableViewCellBase.swift */; };
+		29AE217D21C7948F007FD225 /* TableViewCellSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216E21C7948F007FD225 /* TableViewCellSong.swift */; };
+		29AE217E21C7948F007FD225 /* TableViewCellPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE216F21C7948F007FD225 /* TableViewCellPlaylist.swift */; };
+		29AE217F21C7948F007FD225 /* TableViewCellArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE217021C7948F007FD225 /* TableViewCellArtist.swift */; };
+		29AE218021C7948F007FD225 /* ViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE217221C7948F007FD225 /* ViewControllerBase.swift */; };
+		29AE218121C7948F007FD225 /* ViewControllerCollectionBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE217321C7948F007FD225 /* ViewControllerCollectionBase.swift */; };
+		29AE218221C7948F007FD225 /* ViewControllerTableBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE217421C7948F007FD225 /* ViewControllerTableBase.swift */; };
+		29AE219321C794C7007FD225 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218621C794C7007FD225 /* 8.jpg */; };
+		29AE219421C794C7007FD225 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218721C794C7007FD225 /* 9.jpg */; };
+		29AE219521C794C7007FD225 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218821C794C7007FD225 /* 12.jpg */; };
+		29AE219621C794C7007FD225 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218921C794C7007FD225 /* 13.jpg */; };
+		29AE219721C794C7007FD225 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218A21C794C7007FD225 /* 11.jpg */; };
+		29AE219821C794C7007FD225 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218B21C794C7007FD225 /* 10.jpg */; };
+		29AE219921C794C7007FD225 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218C21C794C7007FD225 /* 4.jpg */; };
+		29AE219A21C794C7007FD225 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218D21C794C7007FD225 /* 5.jpg */; };
+		29AE219B21C794C7007FD225 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218E21C794C7007FD225 /* 7.jpg */; };
+		29AE219C21C794C7007FD225 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE218F21C794C7007FD225 /* 6.jpg */; };
+		29AE219D21C794C7007FD225 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE219021C794C7007FD225 /* 2.jpg */; };
+		29AE219E21C794C7007FD225 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE219121C794C7007FD225 /* 3.jpg */; };
+		29AE219F21C794C7007FD225 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29AE219221C794C7007FD225 /* 1.jpg */; };
+		29AE21AD21C794DF007FD225 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE21A221C794DE007FD225 /* FMResultSet.m */; };
+		29AE21AE21C794DF007FD225 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE21A321C794DE007FD225 /* FMDatabase.m */; };
+		29AE21AF21C794DF007FD225 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE21A621C794DE007FD225 /* FMDatabaseAdditions.m */; };
+		29AE21B021C794DF007FD225 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE21A721C794DE007FD225 /* FMDatabasePool.m */; };
+		29AE21B121C794DF007FD225 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 29AE21A921C794DE007FD225 /* FMDatabaseQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +65,6 @@
 /* Begin PBXFileReference section */
 		29AE213221C79462007FD225 /* LinggkaMusic_Order_v3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinggkaMusic_Order_v3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AE213521C79462007FD225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29AE213721C79462007FD225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29AE213A21C79462007FD225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29AE213C21C79463007FD225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29AE213F21C79463007FD225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29AE214121C79463007FD225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29AE214621C79463007FD225 /* LinggkaMusic_Order_v3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinggkaMusic_Order_v3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +73,46 @@
 		29AE215121C79463007FD225 /* LinggkaMusic_Order_v3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinggkaMusic_Order_v3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AE215521C79463007FD225 /* LinggkaMusic_Order_v3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinggkaMusic_Order_v3UITests.swift; sourceTree = "<group>"; };
 		29AE215721C79463007FD225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29AE216421C7948E007FD225 /* ViewArtists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewArtists.swift; sourceTree = "<group>"; };
+		29AE216521C7948E007FD225 /* ViewSongs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSongs.swift; sourceTree = "<group>"; };
+		29AE216621C7948E007FD225 /* ViewAlbums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAlbums.swift; sourceTree = "<group>"; };
+		29AE216721C7948E007FD225 /* ViewPlaylists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPlaylists.swift; sourceTree = "<group>"; };
+		29AE216821C7948E007FD225 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		29AE216A21C7948E007FD225 /* DataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		29AE216B21C7948F007FD225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29AE216D21C7948F007FD225 /* TableViewCellBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellBase.swift; sourceTree = "<group>"; };
+		29AE216E21C7948F007FD225 /* TableViewCellSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellSong.swift; sourceTree = "<group>"; };
+		29AE216F21C7948F007FD225 /* TableViewCellPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellPlaylist.swift; sourceTree = "<group>"; };
+		29AE217021C7948F007FD225 /* TableViewCellArtist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellArtist.swift; sourceTree = "<group>"; };
+		29AE217221C7948F007FD225 /* ViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBase.swift; sourceTree = "<group>"; };
+		29AE217321C7948F007FD225 /* ViewControllerCollectionBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCollectionBase.swift; sourceTree = "<group>"; };
+		29AE217421C7948F007FD225 /* ViewControllerTableBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableBase.swift; sourceTree = "<group>"; };
+		29AE218621C794C7007FD225 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		29AE218721C794C7007FD225 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		29AE218821C794C7007FD225 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
+		29AE218921C794C7007FD225 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		29AE218A21C794C7007FD225 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		29AE218B21C794C7007FD225 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		29AE218C21C794C7007FD225 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		29AE218D21C794C7007FD225 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		29AE218E21C794C7007FD225 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		29AE218F21C794C7007FD225 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		29AE219021C794C7007FD225 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		29AE219121C794C7007FD225 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		29AE219221C794C7007FD225 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		29AE21A021C794DD007FD225 /* LinggkaMusic_Order_v3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinggkaMusic_Order_v3-Bridging-Header.h"; sourceTree = "<group>"; };
+		29AE21A121C794DE007FD225 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		29AE21A221C794DE007FD225 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		29AE21A321C794DE007FD225 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		29AE21A421C794DE007FD225 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		29AE21A521C794DE007FD225 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		29AE21A621C794DE007FD225 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		29AE21A721C794DE007FD225 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		29AE21A821C794DE007FD225 /* LinggkaMusic_Order_v2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LinggkaMusic_Order_v2-Bridging-Header.h"; sourceTree = "<group>"; };
+		29AE21A921C794DE007FD225 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		29AE21AA21C794DE007FD225 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		29AE21AB21C794DF007FD225 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		29AE21AC21C794DF007FD225 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +163,15 @@
 		29AE213421C79462007FD225 /* LinggkaMusic_Order_v3 */ = {
 			isa = PBXGroup;
 			children = (
-				29AE213521C79462007FD225 /* AppDelegate.swift */,
-				29AE213721C79462007FD225 /* ViewController.swift */,
-				29AE213921C79462007FD225 /* Main.storyboard */,
-				29AE213C21C79463007FD225 /* Assets.xcassets */,
+				29AE218321C794A3007FD225 /* Resource */,
+				29AE216921C7948E007FD225 /* DataBase */,
+				29AE216C21C7948F007FD225 /* UITableViewCell */,
+				29AE217121C7948F007FD225 /* ViewBase */,
+				29AE216321C7948E007FD225 /* Views */,
+				29AE216821C7948E007FD225 /* Main.storyboard */,
 				29AE213E21C79463007FD225 /* LaunchScreen.storyboard */,
+				29AE213521C79462007FD225 /* AppDelegate.swift */,
+				29AE216B21C7948F007FD225 /* Assets.xcassets */,
 				29AE214121C79463007FD225 /* Info.plist */,
 			);
 			path = LinggkaMusic_Order_v3;
@@ -123,6 +193,95 @@
 				29AE215721C79463007FD225 /* Info.plist */,
 			);
 			path = LinggkaMusic_Order_v3UITests;
+			sourceTree = "<group>";
+		};
+		29AE216321C7948E007FD225 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29AE216421C7948E007FD225 /* ViewArtists.swift */,
+				29AE216521C7948E007FD225 /* ViewSongs.swift */,
+				29AE216621C7948E007FD225 /* ViewAlbums.swift */,
+				29AE216721C7948E007FD225 /* ViewPlaylists.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29AE216921C7948E007FD225 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				29AE216A21C7948E007FD225 /* DataBase.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		29AE216C21C7948F007FD225 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				29AE216D21C7948F007FD225 /* TableViewCellBase.swift */,
+				29AE216E21C7948F007FD225 /* TableViewCellSong.swift */,
+				29AE216F21C7948F007FD225 /* TableViewCellPlaylist.swift */,
+				29AE217021C7948F007FD225 /* TableViewCellArtist.swift */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		29AE217121C7948F007FD225 /* ViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				29AE217221C7948F007FD225 /* ViewControllerBase.swift */,
+				29AE217321C7948F007FD225 /* ViewControllerCollectionBase.swift */,
+				29AE217421C7948F007FD225 /* ViewControllerTableBase.swift */,
+			);
+			path = ViewBase;
+			sourceTree = "<group>";
+		};
+		29AE218321C794A3007FD225 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				29AE218521C794C7007FD225 /* imgs */,
+				29AE218421C794B2007FD225 /* fmdb */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		29AE218421C794B2007FD225 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				29AE21AC21C794DF007FD225 /* FMDatabase.h */,
+				29AE21A321C794DE007FD225 /* FMDatabase.m */,
+				29AE21AB21C794DF007FD225 /* FMDatabaseAdditions.h */,
+				29AE21A621C794DE007FD225 /* FMDatabaseAdditions.m */,
+				29AE21A521C794DE007FD225 /* FMDatabasePool.h */,
+				29AE21A721C794DE007FD225 /* FMDatabasePool.m */,
+				29AE21AA21C794DE007FD225 /* FMDatabaseQueue.h */,
+				29AE21A921C794DE007FD225 /* FMDatabaseQueue.m */,
+				29AE21A421C794DE007FD225 /* FMDB.h */,
+				29AE21A121C794DE007FD225 /* FMResultSet.h */,
+				29AE21A221C794DE007FD225 /* FMResultSet.m */,
+				29AE21A821C794DE007FD225 /* LinggkaMusic_Order_v2-Bridging-Header.h */,
+				29AE21A021C794DD007FD225 /* LinggkaMusic_Order_v3-Bridging-Header.h */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		29AE218521C794C7007FD225 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				29AE218621C794C7007FD225 /* 8.jpg */,
+				29AE218721C794C7007FD225 /* 9.jpg */,
+				29AE218821C794C7007FD225 /* 12.jpg */,
+				29AE218921C794C7007FD225 /* 13.jpg */,
+				29AE218A21C794C7007FD225 /* 11.jpg */,
+				29AE218B21C794C7007FD225 /* 10.jpg */,
+				29AE218C21C794C7007FD225 /* 4.jpg */,
+				29AE218D21C794C7007FD225 /* 5.jpg */,
+				29AE218E21C794C7007FD225 /* 7.jpg */,
+				29AE218F21C794C7007FD225 /* 6.jpg */,
+				29AE219021C794C7007FD225 /* 2.jpg */,
+				29AE219121C794C7007FD225 /* 3.jpg */,
+				29AE219221C794C7007FD225 /* 1.jpg */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +352,7 @@
 				TargetAttributes = {
 					29AE213121C79462007FD225 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					29AE214521C79463007FD225 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,9 +389,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AE219E21C794C7007FD225 /* 3.jpg in Resources */,
+				29AE219A21C794C7007FD225 /* 5.jpg in Resources */,
+				29AE219321C794C7007FD225 /* 8.jpg in Resources */,
+				29AE219D21C794C7007FD225 /* 2.jpg in Resources */,
+				29AE219C21C794C7007FD225 /* 6.jpg in Resources */,
+				29AE219F21C794C7007FD225 /* 1.jpg in Resources */,
 				29AE214021C79463007FD225 /* LaunchScreen.storyboard in Resources */,
-				29AE213D21C79463007FD225 /* Assets.xcassets in Resources */,
-				29AE213B21C79462007FD225 /* Main.storyboard in Resources */,
+				29AE219B21C794C7007FD225 /* 7.jpg in Resources */,
+				29AE219521C794C7007FD225 /* 12.jpg in Resources */,
+				29AE217B21C7948F007FD225 /* Assets.xcassets in Resources */,
+				29AE219821C794C7007FD225 /* 10.jpg in Resources */,
+				29AE219421C794C7007FD225 /* 9.jpg in Resources */,
+				29AE217921C7948F007FD225 /* Main.storyboard in Resources */,
+				29AE219621C794C7007FD225 /* 13.jpg in Resources */,
+				29AE219921C794C7007FD225 /* 4.jpg in Resources */,
+				29AE219721C794C7007FD225 /* 11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +429,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29AE213821C79462007FD225 /* ViewController.swift in Sources */,
+				29AE217621C7948F007FD225 /* ViewSongs.swift in Sources */,
 				29AE213621C79462007FD225 /* AppDelegate.swift in Sources */,
+				29AE21AD21C794DF007FD225 /* FMResultSet.m in Sources */,
+				29AE21AE21C794DF007FD225 /* FMDatabase.m in Sources */,
+				29AE217821C7948F007FD225 /* ViewPlaylists.swift in Sources */,
+				29AE218121C7948F007FD225 /* ViewControllerCollectionBase.swift in Sources */,
+				29AE217E21C7948F007FD225 /* TableViewCellPlaylist.swift in Sources */,
+				29AE21AF21C794DF007FD225 /* FMDatabaseAdditions.m in Sources */,
+				29AE217721C7948F007FD225 /* ViewAlbums.swift in Sources */,
+				29AE217D21C7948F007FD225 /* TableViewCellSong.swift in Sources */,
+				29AE217F21C7948F007FD225 /* TableViewCellArtist.swift in Sources */,
+				29AE218221C7948F007FD225 /* ViewControllerTableBase.swift in Sources */,
+				29AE217A21C7948F007FD225 /* DataBase.swift in Sources */,
+				29AE217C21C7948F007FD225 /* TableViewCellBase.swift in Sources */,
+				29AE218021C7948F007FD225 /* ViewControllerBase.swift in Sources */,
+				29AE217521C7948F007FD225 /* ViewArtists.swift in Sources */,
+				29AE21B021C794DF007FD225 /* FMDatabasePool.m in Sources */,
+				29AE21B121C794DF007FD225 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +482,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29AE213921C79462007FD225 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29AE213A21C79462007FD225 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		29AE213E21C79463007FD225 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +613,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
 				INFOPLIST_FILE = LinggkaMusic_Order_v3/Info.plist;
@@ -441,6 +623,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.LinggkaMusic-Order-v3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinggkaMusic_Order_v3/Resource/fmdb/LinggkaMusic_Order_v3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +634,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AGY9E5E6J5;
 				INFOPLIST_FILE = LinggkaMusic_Order_v3/Info.plist;
@@ -459,6 +644,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Senegal.LinggkaMusic-Order-v3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinggkaMusic_Order_v3/Resource/fmdb/LinggkaMusic_Order_v3-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
